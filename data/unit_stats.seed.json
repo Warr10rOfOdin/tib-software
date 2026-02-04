@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "note": "Unit statistics seed data for CnC: Tiberium Alliances Lineup Optimizer",
+    "version": "1.0.0",
+    "lastUpdated": "2026-02-04",
+    "source": "Community wiki and game knowledge - to be updated with accurate data",
+    "confidence": "medium"
+  },
+  "units": [
+    {
+      "unitKey": "nod_militant",
+      "name": "Militant",
+      "faction": "nod",
+      "type": "infantry",
+      "apCost": 10,
+      "armorType": "light",
+      "range": 1,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 1.0,
+        "vehicle": 0.4,
+        "structure": 0.8,
+        "air": 0.3
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_rocket",
+      "name": "Rocket Squad",
+      "faction": "nod",
+      "type": "infantry",
+      "apCost": 20,
+      "armorType": "light",
+      "range": 3,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 0.6,
+        "vehicle": 1.5,
+        "structure": 1.2,
+        "air": 1.8
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_scorpion",
+      "name": "Scorpion Tank",
+      "faction": "nod",
+      "type": "vehicle",
+      "apCost": 35,
+      "armorType": "medium",
+      "range": 2,
+      "speed": 3,
+      "damageVs": {
+        "infantry": 0.8,
+        "vehicle": 1.2,
+        "structure": 1.0,
+        "air": 0.2
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_attack_bike",
+      "name": "Attack Bike",
+      "faction": "nod",
+      "type": "vehicle",
+      "apCost": 25,
+      "armorType": "light",
+      "range": 2,
+      "speed": 5,
+      "damageVs": {
+        "infantry": 1.0,
+        "vehicle": 0.8,
+        "structure": 1.5,
+        "air": 0.3
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_venom",
+      "name": "Venom",
+      "faction": "nod",
+      "type": "air",
+      "apCost": 40,
+      "armorType": "air",
+      "range": 2,
+      "speed": 6,
+      "damageVs": {
+        "infantry": 1.5,
+        "vehicle": 0.6,
+        "structure": 0.4,
+        "air": 0.8
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_reckoner",
+      "name": "Reckoner",
+      "faction": "nod",
+      "type": "vehicle",
+      "apCost": 50,
+      "armorType": "heavy",
+      "range": 3,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 1.8,
+        "vehicle": 0.7,
+        "structure": 0.5,
+        "air": 0.3
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_vertigo",
+      "name": "Vertigo",
+      "faction": "nod",
+      "type": "air",
+      "apCost": 60,
+      "armorType": "air",
+      "range": 4,
+      "speed": 5,
+      "damageVs": {
+        "infantry": 0.5,
+        "vehicle": 0.6,
+        "structure": 2.5,
+        "air": 0.2
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "nod_avatar",
+      "name": "Avatar",
+      "faction": "nod",
+      "type": "vehicle",
+      "apCost": 70,
+      "armorType": "heavy",
+      "range": 2,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 0.9,
+        "vehicle": 1.5,
+        "structure": 1.0,
+        "air": 0.4
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_rifleman",
+      "name": "Rifleman Squad",
+      "faction": "gdi",
+      "type": "infantry",
+      "apCost": 10,
+      "armorType": "light",
+      "range": 1,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 1.0,
+        "vehicle": 0.4,
+        "structure": 0.8,
+        "air": 0.3
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_missile",
+      "name": "Missile Squad",
+      "faction": "gdi",
+      "type": "infantry",
+      "apCost": 20,
+      "armorType": "light",
+      "range": 3,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 0.6,
+        "vehicle": 1.5,
+        "structure": 1.2,
+        "air": 1.8
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_predator",
+      "name": "Predator Tank",
+      "faction": "gdi",
+      "type": "vehicle",
+      "apCost": 35,
+      "armorType": "medium",
+      "range": 2,
+      "speed": 3,
+      "damageVs": {
+        "infantry": 0.8,
+        "vehicle": 1.2,
+        "structure": 1.0,
+        "air": 0.2
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_pitbull",
+      "name": "Pitbull",
+      "faction": "gdi",
+      "type": "vehicle",
+      "apCost": 25,
+      "armorType": "light",
+      "range": 2,
+      "speed": 5,
+      "damageVs": {
+        "infantry": 1.0,
+        "vehicle": 0.8,
+        "structure": 0.6,
+        "air": 1.2
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_orca",
+      "name": "Orca",
+      "faction": "gdi",
+      "type": "air",
+      "apCost": 40,
+      "armorType": "air",
+      "range": 2,
+      "speed": 6,
+      "damageVs": {
+        "infantry": 0.8,
+        "vehicle": 1.5,
+        "structure": 0.6,
+        "air": 0.5
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_mammoth",
+      "name": "Mammoth Tank",
+      "faction": "gdi",
+      "type": "vehicle",
+      "apCost": 70,
+      "armorType": "heavy",
+      "range": 2,
+      "speed": 2,
+      "damageVs": {
+        "infantry": 1.0,
+        "vehicle": 1.5,
+        "structure": 1.2,
+        "air": 0.8
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    },
+    {
+      "unitKey": "gdi_kodiak",
+      "name": "Kodiak",
+      "faction": "gdi",
+      "type": "air",
+      "apCost": 60,
+      "armorType": "air",
+      "range": 4,
+      "speed": 5,
+      "damageVs": {
+        "infantry": 0.5,
+        "vehicle": 0.8,
+        "structure": 2.0,
+        "air": 0.3
+      },
+      "source": "community_wiki",
+      "confidence": "medium"
+    }
+  ],
+  "buildings": [
+    {
+      "buildingKey": "gdi_command_center",
+      "mdbId": 111,
+      "name": "Command Center",
+      "faction": "gdi",
+      "type": "structure",
+      "category": "command",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "gdi_construction_yard",
+      "mdbId": 112,
+      "name": "Construction Yard",
+      "faction": "gdi",
+      "type": "structure",
+      "category": "construction",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "gdi_defense_facility",
+      "mdbId": 131,
+      "name": "Defense Facility",
+      "faction": "gdi",
+      "type": "structure",
+      "category": "defense",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "nod_construction_yard",
+      "mdbId": 151,
+      "name": "Construction Yard",
+      "faction": "nod",
+      "type": "structure",
+      "category": "construction",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "nod_defense_facility",
+      "mdbId": 158,
+      "name": "Defense Facility",
+      "faction": "nod",
+      "type": "structure",
+      "category": "defense",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "nod_command_center",
+      "mdbId": 159,
+      "name": "Command Center",
+      "faction": "nod",
+      "type": "structure",
+      "category": "command",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "forgotten_construction_yard",
+      "mdbId": 177,
+      "name": "Construction Yard",
+      "faction": "forgotten",
+      "type": "structure",
+      "category": "construction",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    },
+    {
+      "buildingKey": "forgotten_defense_facility",
+      "mdbId": 195,
+      "name": "Defense Facility",
+      "faction": "forgotten",
+      "type": "structure",
+      "category": "defense",
+      "source": "TACS v3.03b",
+      "confidence": "high"
+    }
+  ]
+}
