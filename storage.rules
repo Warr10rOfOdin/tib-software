@@ -1,0 +1,40 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isValidImageFile() {
+      return request.resource.contentType.matches('image/.*');
+    }
+
+    function isValidSize() {
+      // Max 10MB per file
+      return request.resource.size < 10 * 1024 * 1024;
+    }
+
+    // User uploads (screenshots, battle reports)
+    match /users/{uid}/uploads/{allPaths=**} {
+      allow read: if isAuthenticated() && request.auth.uid == uid;
+      allow write: if isAuthenticated()
+                   && request.auth.uid == uid
+                   && isValidImageFile()
+                   && isValidSize();
+      allow delete: if isAuthenticated() && request.auth.uid == uid;
+    }
+
+    // Public unit icons/templates (read-only)
+    match /unit-icons/{allPaths=**} {
+      allow read: if true;
+      allow write: if false; // Only admins can upload via backend
+    }
+
+    // Deny all other access
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
